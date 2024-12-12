@@ -1,5 +1,31 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @import "tailwindcss";
+
+:root {
+    --deep-blue: oklch(32.33% 0.1025 253.89);
+    --scarlet-red: oklch(49.68% 0.1797 26.81);
+    --metallic-gold: oklch(85.88% 0.1697 87.89);
+    --silver: oklch(80.78% 0 0);
+    --charcoal-black: oklch(18.83% 0 0);
+}
+
+@layer utilities {
+    .bg-deep-blue {
+        background-color: var(--deep-blue);
+    }
+
+    .bg-scarlet-red {
+        background-color: var(--scarlet-red);
+    }
+
+    .text-metallic-gold {
+        color: var(--metallic-gold);
+    }
+
+    .bg-silver {
+        background-color: var(--silver);
+    }
+
+    .bg-charcoal-black {
+        background-color: var(--charcoal-black);
+    }
+}
