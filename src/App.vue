@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-blueDeep text-goldMetallic p-4">
-    Test de ma palette graphique
+  <div class="bg-blue-500 text-white p-4">
+    Test Tailwind CSS
   </div>
 
 </template>
